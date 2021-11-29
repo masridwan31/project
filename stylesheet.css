@@ -131,7 +131,7 @@ footer {
 }
 
 .fa {
-  size: 8px;
+  font-size: 18px;
   margin : 5px;
   color: rgba(247, 241, 227,1.0);
 }
