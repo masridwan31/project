@@ -103,6 +103,7 @@ text-align: center;
 .produk-icon p {
   font-size: 20px;
   font-family: 'Righteous', serif;
+  color: rgba(235, 47, 6,1.0);
 }
 
 span.menu-icon {
