@@ -15,7 +15,7 @@ body h1 {
 
 
 @media all and(max-width: 670px) {
-    .header-list{
+    .header-list a{
         display: none;
     }
     .menu-icon {
@@ -24,15 +24,7 @@ body h1 {
     body h1 {
         font-size: 5em;
     }
-    .produk {
-        width: 100%;
-    }
-    .produk-icon img {
+    .portofolio {
         display: none;
-    }
-    .produk-icon p {
-        font-size: 8px;
-
-    }
 
 }
