@@ -9,6 +9,7 @@ body h1 {
 
 span.menu-icon {
     display: block;
+    float: left;
 }
 .produk {
     width: 100%;
