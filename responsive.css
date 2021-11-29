@@ -33,9 +33,11 @@ span.menu-icon {
     h2 {
         font-size: 24px;
     }
-    .produk {
+    .produk-icon img {
         display: none;
     }
-
+    .produk-icon p {
+        font-size: 12px;
+    }
 
 }
