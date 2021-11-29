@@ -6,10 +6,10 @@ body h1 {
     width: 50%;
     }
     .produk-icon img {
-        height: 20px;
+        height: 10px;
     }
     .produk-icon p {
-        font-size: 12px;
+        font-size: 6px;
     }
 }
 
@@ -31,6 +31,7 @@ body h1 {
         display: none;
     }
     .produk-icon p {
+        font-size: 8px;
 
     }
 
