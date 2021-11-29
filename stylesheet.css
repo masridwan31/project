@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  }
+  html, body {
+    height: 100%;
+}
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(248, 194, 145,1.0);
+  text-align: center;
+}
+h1 {
+  display: inline-block;
+  color:whitesmoke;
+  font-family: 'Righteous', serif;
+  font-size: 20em; 
+  text-shadow: .03em .03em 0 rgba(248, 194, 145,1.0);
+  }
+  h1:after {
+    content: attr(data-shadow);
+    position: absolute;
+    top: .06em; left: .06em;
+    z-index: -1;
+    text-shadow: none;
+    background-image:
+      linear-gradient(
+        45deg,
+        transparent 45%,
+        hsla(48,20%,90%,1) 45%,
+        hsla(48,20%,90%,1) 55%,
+        transparent 0
+        );
+    background-size: .05em .05em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    animation: shad-anim 15s linear infinite;
+    }
+
+@keyframes shad-anim {
+  0% {background-position: 0 0}
+  0% {background-position: 100% -100%}
+  }
+h2 {
+  color: rgba(235, 47, 6,1.0);
+  font-family: 'Righteous', serif;
+  margin : 5px 0;
+}
+  a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+header {
+padding: 5px 0 5px 0;
+background-size: cover;
+text-align: center;
+}
+.header-list l1 {
+  list-style: none;
+  }
+  .header-list a {
+    font-family: 'Righteous', serif;
+    line-height: 65px;
+    padding: 0 25px;
+    color: rgba(235, 47, 6,1.0);
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    
+  }
+  .header-list a:hover {
+    background-color: coral;
+  }
+
+.produk {
+  float: left;
+  width: 33.33%;
+  margin: 20px 0;
+}
+
+.produk-icon img {
+  height: 40px;
+}
+.produk-icon p {
+  font-size: 20px;
+  font-family: 'Righteous', serif;
+}
+
+span.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+footer {
+  height: 150px;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 35px;
+}
+.footer-list {
+  float:right;
+  margin-top: 30px;
+}
+.footer-list li {
+  list-style: none;
+  float: left;
+  padding : 0 40px;
+}
+
+.fa {
+  margin : 5px;
+}
