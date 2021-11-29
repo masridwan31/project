@@ -1,0 +1,37 @@
+@media all and (max-width: 1000px) {
+body h1 {
+    font-size: 14em;
+}
+.produk {
+    width: 50%;
+    }
+    .produk-icon img {
+        height: 20px;
+    }
+    .produk-icon p {
+        font-size: 12px;
+    }
+}
+
+
+@media all and(max-width: 670px) {
+    .header-list{
+        display: none;
+    }
+    .menu-icon {
+        display:block;
+    }
+    body h1 {
+        font-size: 5em;
+    }
+    .produk {
+        width: 100%;
+    }
+    .produk-icon img {
+        display: none;
+    }
+    .produk-icon p {
+
+    }
+
+}
