@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
-  background-color: rgba(248, 194, 145,1.0);
+  background-color: rgba(204, 174, 98,1.0);
   text-align: center;
 }
 h1 {
@@ -53,7 +53,7 @@ h1 {
   0% {background-position: 100% -100%}
   }
 h2 {
-  color: rgba(235, 47, 6,1.0);
+  color: rgba(205, 97, 51,1.0);
   font-family: 'Righteous', serif;
   margin : 5px 0;
 }
@@ -82,7 +82,7 @@ text-align: center;
     font-family: 'Righteous', serif;
     line-height: 65px;
     padding: 0 25px;
-    color: rgba(235, 47, 6,1.0);
+    color: rgba(205, 97, 51,1.0);
     display: block;
     float: left;
     transition: all 0.5s;
